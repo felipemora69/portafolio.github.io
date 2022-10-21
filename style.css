@@ -45,13 +45,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 .logo img {
-    width: 230px;
-    height: 230px;
-    padding-bottom: 10px;
+    width: 300px;
+    height: 250px;
+    padding-bottom: 40px;
     animation: aparecer 2s ease 1 backwards;
     animation-delay: 0.3s;
 }
@@ -97,19 +97,47 @@ body {
     position: relative;
     background: #000;
     box-shadow: 0 0 2rem 4rem #000;
-    min-height: 0;
+    min-height: 200px;
     flex-flow: none;
+    padding: 0;
 }
 
 .me {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: 1rem;
 }
 
 .me h2 {
     font-weight: lighter;
-    color: white;
+    color: #3ed8d3;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.about-pics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+}
+
+.about-pics img {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+}
+
+.about-pics .m {
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+}
+
+.about-pics .trfg {
+    width: 120px;
+    height: 150px;
+    padding: 10px;
 }
 
 /* resumen */
@@ -253,7 +281,7 @@ footer {
 }
 
 .logo-foot img {
-    width: 230px;
+    width: 300px;
     height: 230px;
     padding-bottom: 10px;
 }
